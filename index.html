@@ -1,26 +1,89 @@
 <!DOCTYPE html>
 
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <title>BORA TOMA UMA</title>
-    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+	<head>
+		<meta charset="utf-8" />
+		<title>BORA TOMA UMA</title>
+		<link
+			rel="shortcut icon"
+			href="icon.png"
+			type="image/x-icon"
+		/>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+		<meta
+			name="title"
+			content="bora toma uma"
+		/>
+		<meta
+			name="description"
+			content="bora bora bora toma uma"
+		/>
+		<meta
+			property="og:type"
+			content="website"
+		/>
+		<meta
+			property="og:url"
+			content=""
+		/>
+		<meta
+			property="og:title"
+			content="bora toma uma"
+		/>
+		<meta
+			property="og:description"
+			content="bora bora bora toma uma"
+		/>
+		<meta
+			property="og:image"
+			content="icon.png"
+		/>
+		<meta
+			property="twitter:card"
+			content="summary_large_image"
+		/>
+		<meta
+			property="twitter:url"
+			content="/"
+		/>
+		<meta
+			property="twitter:title"
+			content="bora toma uma"
+		/>
+		<meta
+			property="twitter:description"
+			content="bora bora bora toma uma"
+		/>
+		<meta
+			property="twitter:image"
+			content="icon.png"
+		/>
+	</head>
 
-  <body>
-    <main>
-      <video class="video" loop="loop" muted="muted" autoplay="autoplay">
-        <source src="video.mp4" type="video/mp4" />
-      </video>
+	<body>
+		<main>
+			<video
+				class="video"
+				loop="loop"
+				muted="muted"
+				autoplay="autoplay"
+			>
+				<source
+					src="video.mp4"
+					type="video/mp4"
+				/>
+			</video>
 
-      <script>
-        let video = document.querySelector(".video");
+			<script>
+				let video = document.querySelector(".video");
 
-        document.querySelector("body").addEventListener("click", () => {
-          video.muted = false;
-        });
-      </script>
-    </main>
-  </body>
+				document.querySelector("body").addEventListener("click", () => {
+					video.muted = false;
+				});
+			</script>
+		</main>
+	</body>
 </html>
