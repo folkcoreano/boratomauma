@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:where(html, body) {
+  height: 100vh;
+}
+
+body {
+  background-image: linear-gradient(#7692ad, #bed5ee, #bed5ee, #c5d3f1);
+  color: #eee;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  height: 100vh;
+  padding-left: center;
+}
